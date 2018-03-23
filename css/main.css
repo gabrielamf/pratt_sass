@@ -5800,40 +5800,40 @@ button.close {
 * {
   font-family: "Raleway", sans-serif; }
 
-.navbar-nav li:hover {
+.navbar_nav li:hover {
   background-color: #33485c; }
-  .navbar-nav li:hover a:hover {
+  .navbar_nav li:hover a:hover {
     color: #fff; }
 
-.seccion-uno {
+.seccion_uno {
   background-color: #33485c;
   padding-top: 6%; }
-  .seccion-uno h1, .seccion-uno h3 {
+  .seccion_uno h1, .seccion_uno h3 {
     color: #fff;
     text-align: center; }
 
-.seccion-dos {
+.seccion_dos {
   background-color: #f7f7f7;
   padding: 2%;
   color: #989998;
   text-align: center;
   line-height: 30px; }
 
-.seccion-tres {
+.seccion_tres {
   background-color: #33485c;
   padding: 2%; }
-  .seccion-tres .desktop {
+  .seccion_tres .desktop {
     width: 100%;
     padding: 6%; }
-  .seccion-tres h1, .seccion-tres h2, .seccion-tres h4 {
+  .seccion_tres h1, .seccion_tres h2, .seccion_tres h4 {
     text-align: center; }
-  .seccion-tres p {
+  .seccion_tres p {
     color: #989998;
     text-align: center;
     line-height: 30px; }
 
 @media (max-width: 600px) {
-  .seccion-uno {
+  .seccion_uno {
     background-color: #33485c;
     padding-top: 11%; } }
 

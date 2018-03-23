@@ -1,49 +1,55 @@
 * {
-  font-family: $body-font;
+  font-family: $body_font;
 }
 
-.navbar-nav {
+.navbar_nav {
   li:hover {
-    background-color: $background-uno;
+    background-color: $background_uno;
     a:hover {
-      color: $color-text-titulo;
+      color: $color_text_titulo;
     }
   }
 }
 
-.seccion-uno {
-  background-color: $background-uno;
+.seccion_uno {
+  background-color: $background_uno;
   padding-top: $padding;
   h1, h3 {
-    color: $color-text-titulo;
-    text-align: $text-center;
+    color: $color_text_titulo;
+    text-align: $text_center;
   }
 }
 
-.seccion-dos {
-  background-color: $background-dos;
-  padding: $padding-footer;
+.seccion_dos {
+  background-color: $background_dos;
+  padding: $padding_footer;
   @include excel();
 }
 
-.seccion-tres {
-  background-color: $background-uno;
-  padding: $padding-footer;
+.seccion_tres {
+  background-color: $background_dos;
+  padding: $padding_footer;
   .desktop {
-    width: $width-desktop;
+    width: $width_desktop;
     padding: $padding;
   }
   h1, h2, h4 {
-    text-align: $text-center;
+    text-align: $text_center;
   }
   p {
     @include excel();
   }
 }
 
+footer {
+  p {
+  text-align: $text_center;
+  }
+}
+
 @media (max-width: 600px) {
-  .seccion-uno {
-    background-color: $background-uno;
-    padding-top: $padding-media;
+  .seccion_uno {
+    background-color: $background_uno;
+    padding-top: $padding_media;
   }
 }
